@@ -2,6 +2,14 @@ package Yatzoo;
 
 import java.util.Random;
 
+/**
+ * 
+ * klasse for å få verdi på terninger
+ * 
+ * @author torkel
+ *
+ */
+
 public class Terning {
 	private static final Random RAND = new Random();
 	private Integer verdi;
@@ -25,7 +33,6 @@ public class Terning {
 		}else{
 			dyret = "hval";
 		}
-		
 		return dyret;
 	}
 
